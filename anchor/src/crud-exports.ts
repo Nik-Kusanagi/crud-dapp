@@ -21,7 +21,7 @@ export function getCrudProgramId(cluster: Cluster) {
     case 'devnet':
     case 'testnet':
       // This is the program ID for the Crud program on devnet and testnet.
-      return new PublicKey('coUnmi3oBUtwtd9fjeAvSsJssXh5A5xyPbhpewyzRVF')
+      return new PublicKey('FFPUW7xndZDqUnz6bL2QgnUPWX8sCQHMK5pPv5of3x7k')
     case 'mainnet-beta':
     default:
       return CRUD_PROGRAM_ID
