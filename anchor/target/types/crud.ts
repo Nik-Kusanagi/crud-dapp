@@ -4,10 +4,10 @@
  * Note that this is only a type helper and is not the actual IDL. The original
  * IDL can be found at `target/idl/counter.json`.
  */
-export type Counter = {
+export type Crud = {
   address: 'FqzkXZdwYjurnUKetJCAvaUw5WAqbwzU6gZEwydeEfqS'
   metadata: {
-    name: 'counter'
+    name: 'crud'
     version: '0.1.0'
     spec: '0.1.0'
     description: 'Created with Anchor'
@@ -23,7 +23,7 @@ export type Counter = {
           signer: true
         },
         {
-          name: 'counter'
+          name: 'crud'
           writable: true
         },
       ]
@@ -34,7 +34,7 @@ export type Counter = {
       discriminator: [106, 227, 168, 59, 248, 27, 150, 101]
       accounts: [
         {
-          name: 'counter'
+          name: 'crud'
           writable: true
         },
       ]
@@ -45,7 +45,7 @@ export type Counter = {
       discriminator: [11, 18, 104, 9, 104, 174, 59, 33]
       accounts: [
         {
-          name: 'counter'
+          name: 'crud'
           writable: true
         },
       ]
@@ -61,7 +61,7 @@ export type Counter = {
           signer: true
         },
         {
-          name: 'counter'
+          name: 'crud'
           writable: true
           signer: true
         },
@@ -77,7 +77,7 @@ export type Counter = {
       discriminator: [198, 51, 53, 241, 116, 29, 126, 194]
       accounts: [
         {
-          name: 'counter'
+          name: 'crud'
           writable: true
         },
       ]
@@ -91,13 +91,13 @@ export type Counter = {
   ]
   accounts: [
     {
-      name: 'counter'
+      name: 'crud'
       discriminator: [255, 176, 4, 245, 188, 253, 124, 25]
     },
   ]
   types: [
     {
-      name: 'counter'
+      name: 'crud'
       type: {
         kind: 'struct'
         fields: [
